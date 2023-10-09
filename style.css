@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background: url(images/background.png);
+    font-size: 8pt;
+}
+
+#banner {
+    background-image: url(images/bannerbackground.png);
+    height: 50px;
+}
+
+#moviehead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+#main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 4px solid gray;
+    overflow: hidden;
+}
+
+#content {
+    float: left;
+    width: 550px;
+}
+
+#rottenheading {
+    background: url(images/rottenbackground.png) repeat repeat;
+    height: 83px;
+    width: 100%;
+    display: flex;
+}
+
+.rottenimg {
+    float: left;
+    height: 83px;
+}
+
+.ratingclass {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.totalreviewclass {
+    color: white;
+    font-weight: normal;
+    margin-top: auto;
+}
+
+#reviewcols {
+    margin: 2% 2% 0 2%;
+    column-gap: 2%;
+    display: flex;
+}
+
+.leftcol {
+    float: left;
+}
+
+.rightcol {
+    float: right;
+}
+
+.reviews {
+    padding: 8px;
+    font-weight: bold;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    overflow: auto;
+}
+
+.reviewer {
+    margin-bottom: 3em;
+}
+
+.reviewicon {
+    float: left;
+    margin-right: 5px;
+
+}
+
+span::before {
+    content: "\a";
+    white-space: pre;
+}
+
+span {
+    font-style: italic;
+    margin-left: 5px;
+}
+
+#overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#moviedetails {
+    margin-left: 10px;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+}
+
+#validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
